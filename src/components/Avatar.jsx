@@ -12,7 +12,7 @@ export default function Avatar(props) {
   const { actions } = useAnimations(typingAnimation, group);
 
   useEffect(() => {
-    actions["Touching"]
+    actions["Touching"].reset().play()
   }, []);
 
   return (
