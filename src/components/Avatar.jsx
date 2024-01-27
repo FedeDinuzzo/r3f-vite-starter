@@ -4,7 +4,7 @@ import { useAnimations } from "@react-three/drei";
 
 export default function Avatar(props) {
   const group = useRef();
-  const { nodes, materials } = useGLTF("models/avatar.glb");
+  const { nodes, materials } = useGLTF("models/65a86a3231b23abb4f3d5ec1.glb");
   const { animations: typingAnimation } = useFBX("animations/Typing.fbx");
 
   typingAnimation[0].name = "Typing";
