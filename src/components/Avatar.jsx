@@ -18,7 +18,7 @@ export default function Avatar(props) {
 
   return (
     <group {...props} ref={group} dispose={null}>
-      <group>
+      <group rotation-x={-Math.PI / 2}>
         <primitive object={nodes.Hips} />
         <skinnedMesh
           name="EyeLeft"
